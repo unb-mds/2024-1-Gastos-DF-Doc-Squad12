@@ -1,0 +1,32 @@
+site_name: ‎ 
+theme:
+  logo: img/logo.png
+  favicon: img/favicon.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt-BR
+  extra:
+    generator: false
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-night 
+        name: Switch to light mode
+      primary: purple
+      accent: teal
+    - scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode   
+      primary: purple
+      accent: teal
