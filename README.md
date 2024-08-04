@@ -8,6 +8,8 @@ na pasta `docs` a documentação toda é feita em `markdown` para mais detalhes 
 
 O repositório principal do Gastos DF pode ser visualizado clicando <a href="https://github.com/unb-mds/Gastos-DF-Squad12">aqui</a>.
 
+A documentação pode ser visualizada clicando <a href="https://unb-mds.github.io/2024-1-Gastos-DF-Doc-Squad12/">aqui</a>.
+
 ## Pré-requisitos
 
 Ter o Python 3.12.3 ou superior instalado.
