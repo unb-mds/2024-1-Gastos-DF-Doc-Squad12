@@ -2,9 +2,11 @@
 
 ## Algumas informações
 
-O deploy é feito automaticamente e pode ser acompanhado na aba `actions` do git hub. O arquivo
+O deploy é feito automaticamente e pode ser acompanhado na aba `actions` do GitHub. O arquivo
 `index.md` é a página inicial da documentação para criar uma página nova apenas crie um arquivo `.md`
 na pasta `docs` a documentação toda é feita em `markdown` para mais detalhes visite a documentação.
+
+O repositório principal do Gastos DF pode ser visualizado clicando <a href="https://github.com/unb-mds/Gastos-DF-Squad12">aqui</a>.
 
 ## Pré-requisitos
 
