@@ -1,16 +1,38 @@
-# Como rodar os ambientes
+## Sobre o Back-end
+
+O back-end possui vários algoritmos de raspagem de dados onde eles recebem um dicionário como entrada e em seguida acessam 
+a api do querido diário e retornam listas de dicionários contendo os dados obtidos do diário oficial da união através da api do querido diário. 
+
+ 
+## Puxador_bens
+
+Este algoritmo recebe de entrada dois dados em um dicionário, o `published_since: date` como data e inicio da busca e com o `date` sendo o formato da hora no padrão americano e o `published_until: date` sendo a data para o fim da busca.
+
+ficando neste formato:
+
+```python
+{
+published_since: date,
+published_until: date
+}
+```
+
+O retorno deste algoritmo é uma lista de dicionarios com os seguintes dados encontrados:
+
+```python
+({
+"data": data,
+"empresa": empresa,
+"cnpj": cnpj,
+"objeto": objeto,
+"valor": valor_float
+})
+```
 
 
-
-## Como rodar o Front-end
-
-ainda será adicionado
-
-## Como rodar o API
-
-ainda será adicionado
 
 ## Como rodar o Back-end
+
 
 <h1>Como utilizar o WebScrapper com a API do Querido diário</h1>
 
