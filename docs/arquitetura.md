@@ -1,47 +1,33 @@
 # Arquitetura
 
-## Visão Geral
+## Visão Geral da arquitetura
 
-A arquitetura do sistema é composta por "colocar aqui": o [backend](link das apis) e o [frontend](link do nosso site). O backend é responsável por fornecer uma API REST que apresenta as seguintes funcionalidades:
+Para esse sistema foi escolhido o modelo de arquitetura MVC pois apresenta facilidades quanto ao desenvolvimento por ser um modelo onde divide a aplicação em três componentes principais: Model (Modelo), View (Visão) e Controller (Controlador). Cada componente tem uma responsabilidade específica, o que ajuda a modularizar e organizar o código, facilitando o desenvolvimento e a manutenção dos códigos. 
 
-Explicar as funcionalidades da api
+A imagem abaixo ilustra a disposição dos elementos do projeto distribuídos no modelo de arquitetura selecionado. 
 
-O frontend é responsável por consumir a API REST e apresentar as informações para o usuário final. O fluxo da aplicação se dá da seguinte forma:
+![imagem da arquitetura](img/arquitetura.png)
 
-1. O usuário acessa o site do [SaúdeDF](link do site)
-2. a sequencia do usuario
+## Model (Modelo)
 
-## Design do Sistema
+### Responsabilidade:
 
-O design do sistema foi feito utilizando a ferramenta [Figma](https://www.figma.com) e comporta-se da seguinte forma:
+O Modelo representa a camada de dados da aplicação. Ele lida com a lógica de negócios, armazenamento e recuperação de informações. As principais responsabilidades do Modelo incluem: Gerenciamento de dados e estado da aplicação. Realização de cálculos e operações de lógica de negócios. Notificação de alterações aos observadores interessados.
 
-1. O usuário acessa o site do [SaúdeDF](link do site) e é apresentado com a tela de login
-2. explicar sequencia
+Neste projeto, essa camada contém alguns algoritmos de busca com funções que acessam a API do querido diário, que retorna os dados brutos, os quais são tratados e organizados pelos algoritmos, retornando uma lista de dicionários com as informações obtidas para a camada Controller.
 
-### Lógica do WebScraping
+## View (Visão)
 
-Para nossa aplicação gerenciar as disciplinas e horários disponíveis, foi necessário fazer um _web scraping_ no site da [UnB](link do site caso necessário o scraping) para obter as informações necessárias e não gerar um overload de requisições no site da universidade.
+### Responsabilidade:
 
-Após a obtenção dos dados, foi feito um tratamento para que as informações ficassem mais legíveis e organizadas para o usuário final, cadastrando-as no Banco de Dados PostgreSQL que é gerenciado pela API colocar api.
+A Visão é responsável pela apresentação e captação dos dados do usuário. Ela exibe a interface gráfica e permite a interação do usuário com a aplicação.
 
-As requisições de web scraping ainda não são feitas de forma automática, mas sim pela equipe de desenvolvimento, assim tentamos executar o _web scraping_ a cada 24h para manter as informações atualizadas.
+O nosso projeto possui apenas uma interface gráfica com a finalidade de receber os dados fornecidos pelo usuário e retornar informações gráficas fáceis de serem visualizadas.
 
-- Para execução do _web scraping_ de forma total é necessário executar o comando `make updatedb-all` no servidor da Heroku.
+## Controller (Controlador)
 
-<div style="text-align:center;">
-  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="link do figma da arquitetura" allowfullscreen></iframe>
-</div>
+### Responsabilidade:
 
-### Lógica da criação dos gráficos
+O Controlador atua como intermediário entre o Modelo e a Visão. Ele recebe as entradas do usuário (como inputs e comandos), processa essas entradas (às vezes alterando o Modelo), e atualiza a Visão conforme necessário.
 
-explicar aqui
-
-## Tecnologias Utilizadas
-
-### Backend
-
-- [Python](https://www.python.org)
-
-### Frontend
-
-colocar aqui
+O projeto possui apenas uma API na camada de controle, e essa API atua como uma ponte entre a visão e o modelo, realizando algumas verificações para garantir que os dados sejam recebidos e retornados de maneira correta.

@@ -1,4 +1,8 @@
 site_name: ‎ 
+
+repo_name: Gastos-DF-Squad12
+repo_url: https://github.com/unb-mds/Gastos-DF-Squad12
+
 theme:
   logo: img/logo.png
   favicon: img/favicon.png
