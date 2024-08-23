@@ -1,10 +1,10 @@
-## Front End
+# Front End
 
 Nosso front end foi desenvolvido utilizando HTML, CSS e JavaScript. Ele recebe os dados raspados pelo backend e os exibe em formato de gráficos.
 
-## Como testar nosso front end?
+## Como rodar o Front-end
 
-Para testar o HTML localmente pela linha de comando, siga os passos abaixo:
+Para roda o front-end localmente pela linha de comando, siga os passos abaixo:
 
 1. **Abra o Terminal ou Prompt de Comando:**
    - No Windows, você pode usar o Prompt de Comando ou PowerShell.

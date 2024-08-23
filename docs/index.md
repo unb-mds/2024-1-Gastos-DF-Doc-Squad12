@@ -18,7 +18,7 @@ Gastos DF visa ser uma ferramenta essencial para promover a transparência e a r
 - **Desenvolvimento Web**: Criação de um site interativo e responsivo onde os dados serão exibidos de forma gráfica e textual, facilitando a compreensão e a navegação.
 
 ### Front-End
-O front-end construido para aprensentar as informações e é feito usando o `Bootstrap`, `HTML` e `CSS`.
+O front-end construido para aprensentar as informações e é feito usando o `JavaScript`, `HTML` e `CSS`.
 
 ### Api
 Feito para comunicar o back-end com o front-end é em `Python` usando `Fast Api`.
@@ -60,12 +60,6 @@ O back-end é onde acontece o processamento de dados feito em `Python` e usando 
             <a href="https://github.com/Dodeglinhass">
                 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/108148904?v=4" width="150px;"/>
                 <h5 class="text-center">Douglas Wilson</h5>
-            </a>
-        </td>
-          <td align="center">
-            <a href="https://github.com/g4abr3la">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/133542089?v=4" width="150px;"/>
-                <h5 class="text-center">Gabriela Xavier</h5>
             </a>
         </td>
 </table>
