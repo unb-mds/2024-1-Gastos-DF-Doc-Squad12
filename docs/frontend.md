@@ -1,6 +1,8 @@
 # Front End
 
-Nosso front end foi desenvolvido utilizando HTML, CSS e JavaScript. Ele recebe os dados raspados pelo backend e os exibe em formato de gráficos.
+Nosso front end foi desenvolvido utilizando HTML, CSS e JavaScript. Ele recebe os dados raspados em json e os exibe em formato de gráficos.
+
+Está organizado da seguinte maneira: todos os JSONs usados estão na pasta WEB, e todas as páginas HTML também estão presentes na mesma pasta. Há uma pasta imagens para separar as imagens usadas e uma pasta CSS para separar os scripts CSS utilizados. Além disso, há também a pasta Bases web, onde está a lógica do projeto.
 
 ## Como rodar o Projeto
 
