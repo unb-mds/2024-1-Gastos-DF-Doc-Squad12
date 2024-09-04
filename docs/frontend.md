@@ -4,7 +4,7 @@ Nosso front end foi desenvolvido utilizando HTML, CSS e JavaScript. Ele recebe o
 
 ## Como rodar o Projeto
 
-Para roda o front-end localmente pela linha de comando, siga os passos abaixo:
+Para roda o Projeto localmente pela linha de comando, siga os passos abaixo:
 
 1. **Abra o Terminal ou Prompt de Comando:**
    - No Windows, você pode usar o Prompt de Comando ou PowerShell.
@@ -25,7 +25,7 @@ Você pode usar uma ferramenta como http-server para iniciar um servidor local. 
   http-server
   ```
 Acesse o Projeto no Navegador:
-Após iniciar o servidor, você verá uma URL local no terminal, como http://127.0.0.1:8080. Abra essa URL no seu navegador para ver o front end em funcionamento.
+Após iniciar o servidor, você verá uma URL local no terminal, como http://127.0.0.1:8080. Abra essa URL no seu navegador para ver o Projeto em funcionamento.
 
 Verifique os Resultados:
 Navegue pelas páginas e funcionalidades para garantir que tudo esteja funcionando conforme o esperado.
