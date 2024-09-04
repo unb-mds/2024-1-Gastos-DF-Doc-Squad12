@@ -2,7 +2,7 @@
 
 Nosso front end foi desenvolvido utilizando HTML, CSS e JavaScript. Ele recebe os dados raspados pelo backend e os exibe em formato de gráficos.
 
-## Como rodar o Front-end
+## Como rodar o Projeto
 
 Para roda o front-end localmente pela linha de comando, siga os passos abaixo:
 
