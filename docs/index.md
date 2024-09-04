@@ -20,12 +20,8 @@ Gastos DF visa ser uma ferramenta essencial para promover a transparência e a r
 ### Front-End
 O front-end construido para aprensentar as informações e é feito usando o `JavaScript`, `HTML` e `CSS`.
 
-### Api
-Feito para comunicar o back-end com o front-end é em `Python` usando `Fast Api`.
-
-### Back-End
-O back-end é onde acontece o processamento de dados feito em `Python` e usando a api do Querido diário que por sua vez é feita em `Fast Api`.
-
+### Bases web
+A parte lógica do projeto, feita para extrair os dados e passá-los para a parte de exibição do site, é construída em `Python`.
 
 ## 🤝 Colaboradores
 
