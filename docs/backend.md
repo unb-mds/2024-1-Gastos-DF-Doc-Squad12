@@ -10,8 +10,8 @@ O backend está organizado da seguinte forma, usando as APIs [Querido Diário](h
 - `compras_automatico.py`: Realiza a busca de compras hospitalares na API Querido Diário e salva os dados filtrados em `resultados_compras.json`.
 - `credito_automatico.py`: Realiza a busca creditos suplementares na API Querido Diário e salva os dados filtrados em `resultados_credito.json`.
 - `verbas_automatico.py`: Realiza a busca verbas parlamentares para escolas na API Querido Diário e salva os dados filtrados em `resultados_verbas.json`.
-- `convenio_automatico.py`: Realiza a busca convenios hospitalares na API Querido Diário e salva os dados filtrados em `resultado4.json`.
-- `licitacoes_automatico.py`: Realiza a busca licitaçoes na API Dados Abertos e salva os dados filtrados em `resultado5.json`.
+- `convenio_automatico.py`: Realiza a busca convenios hospitalares na API Querido Diário e salva os dados filtrados em `resultados_convenio.json`.
+- `licitacoes_automatico.py`: Realiza a busca licitaçoes na API Dados Abertos e salva os dados filtrados em `dados_licitacoes.json`.
 
 Cada algoritmo foi desenvolvido para atender a uma necessidade específica de filtragem e manipulação dos dados retornados pela API.
 
