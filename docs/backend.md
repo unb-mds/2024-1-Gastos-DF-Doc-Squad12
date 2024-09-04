@@ -1,4 +1,4 @@
-# Documentação do Backend - Projeto GastosDF
+# Backend
 ## Visão Geral
 
 Este backend consiste em cinco algoritmos que interagem com a API "Querido Diário". Cada algoritmo é responsável por realizar uma busca específica na API, filtrar os dados recebidos e armazená-los em um arquivo JSON. Esses arquivos JSON são atualizados automaticamente por um workflow do GitHub, garantindo que os dados estejam sempre atualizados.
